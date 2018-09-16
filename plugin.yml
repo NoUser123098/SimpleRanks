@@ -4,3 +4,12 @@ version: 0.0.1
 author: NoUser123098
 api: [3.0.0]
 load: POSTWORLD
+commands:
+  makerank:
+    permission: simpleranks.command.makerank
+    description: "Creates a rank."
+    usage: "/makerank <name> <format>"
+  setrank:
+    permission: simpleranks.command.setrank
+    description: "Sets a player's rank."
+    usage: "/setrank <player>"
